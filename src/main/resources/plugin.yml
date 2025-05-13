@@ -1,4 +1,4 @@
-name: welcomer
+name: LightChatWelcomer
 version: '${project.version}'
 main: tech.michaelparker.welcomer.Welcomer
 api-version: '1.20'
