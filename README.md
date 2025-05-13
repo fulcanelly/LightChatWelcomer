@@ -16,6 +16,13 @@ welcome-back-message: "Welcome back to the server! You were last seen on %lastse
 
 ```
 
+# Variables
+
+- `%player%` variable to get user name
+- `%lastseen%` to get formatted date of user last login
+
+# Colors
+
 you can specify text color in legacy way:
 
 ```
@@ -27,6 +34,8 @@ or by color name
 ```
 &gold&Text 
 ```
+
+# Links
 
 you can also can make clicable link
 
