@@ -46,9 +46,8 @@ You can add clickable links like:
 [Text](blue https://example.com Hover message)                             
 ```
 
-![alt text](image-2.png)
-![alt text](image-3.png)
-
+![image](https://github.com/user-attachments/assets/72443fc8-d215-41bf-ab8a-9fa53547d88e)
+![image](https://github.com/user-attachments/assets/9d8c1985-5ac0-4b41-b6ec-59c122ef4b12)
 
 or run commands on text click
 
