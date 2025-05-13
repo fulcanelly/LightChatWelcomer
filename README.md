@@ -1,29 +1,29 @@
 ﻿# LightChatWelcomer 
 
 
-Simple minecraft plugin for on join messages 
-
-#config example
+Simple Minecraft plugin to display custom join messages
 
 you can specify colorful message on first or latter joins for player in config 
 
+# Configuration Example
 
 ```yml
 
-# plgugins/LightChatWelcomer/config.yml
-first-join-message: "Welcome to the server! %player%, look to [&red&Hello](https://example.com)"
-welcome-back-message: "Welcome back to the server! You were last seen on %lastseen%"
+# plugins/LightChatWelcomer/config.yml
+first-join-message: "&red&Welcome to the server! %player%, look to [&blue&Hello](https://example.com Click here)"
+
+welcome-back-message: "&yellow&Welcome back to the server! You were last seen on %lastseen%"
 
 ```
 
 # Variables
 
 - `%player%` variable to get user name
-- `%lastseen%` to get formatted date of user last login
+- `%lastseen%` to get formatted date of user last login (only avaliable in `welcome-back-message`)
 
 # Colors
 
-you can specify text color in legacy way:
+Нou can specify text color in few ways:
 
 ```
 &6Text    # gold color
@@ -35,16 +35,28 @@ or by color name
 &gold&Text 
 ```
 
+- Full color list: https://minecraft.fandom.com/wiki/Formatting_codes 
+
+
 # Links
 
-you can also can make clicable link
+You can add clickable links like:
 
 ```
-[Text](https://example.com)                             
+[Text](blue https://example.com Hover message)                             
 ```
 
-for advanced formatting take a look at 
+![alt text](image-2.png)
+![alt text](image-3.png)
 
-or 
 
-Modrinth = https://modrinth.com/plugin/welcomer
+or run commands on text click
+
+```
+[To get help - click here](/help)                             
+```
+
+
+
+- For advanced formatting take a look at https://github.com/Phoenix616/MineDown
+
