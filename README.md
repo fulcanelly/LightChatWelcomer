@@ -1,22 +1,41 @@
-﻿# Welcomer_plugin
+﻿# LightChatWelcomer 
 
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Michaelrbparker)
- 
-simple minecraft plugin for on join items and messages 
+Simple minecraft plugin for on join messages 
 
-##config example
+#config example
+
+you can specify colorful message on first or latter joins for player in config 
+
 
 ```yml
 
-# config.yml
-first-join-message: "Welcome to the server! %player%"
+# plgugins/LightChatWelcomer/config.yml
+first-join-message: "Welcome to the server! %player%, look to [&red&Hello](https://example.com)"
 welcome-back-message: "Welcome back to the server! You were last seen on %lastseen%"
-first-join-items:
-  - DIAMOND 3
-  - IRON_SWORD 1
-  - GOLDEN_APPLE 2
 
 ```
+
+you can specify text color in legacy way:
+
+```
+&6Text    # gold color
+```
+
+or by color name
+
+```
+&gold&Text 
+```
+
+you can also can make clicable link
+
+```
+[Text](https://example.com)                             
+```
+
+for advanced formatting take a look at 
+
+or 
 
 Modrinth = https://modrinth.com/plugin/welcomer
